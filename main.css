@@ -1,0 +1,101 @@
+body{
+    background-image:linear-gradient(#ffffff,#e7eff0ee,#e7eff0ee);
+    
+}
+.face
+{
+    border:none;
+    padding-top: 10px;
+    font-size:45px;
+    height:100%;
+    font-family: Helvetica, Arial, sans-serif;;
+    text-align: center;
+    color:#0069f2;
+    
+}
+.logto
+{
+    font-weight:100;
+    border:none;
+    font-family:Helvetica, Arial, sans-serif;;
+}
+div.box
+{
+    
+    display:flex;
+    border-radius: 10px 10px 10px 10px;
+    width: 380px;
+    height: 390px;
+    padding: 10px;
+    border: white;
+    margin: auto;
+    background:white;
+    box-shadow: 5px 5px 5px 5px rgb(232, 235, 237);
+    padding-bottom:1px; 
+    text-align: center;
+    flex-direction: column;
+}
+
+
+.name .login
+{
+    background: #1877F2;
+    color:#ffffff;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    width:93%;
+    height:20%;
+    font-family:Helvetica, Arial, sans-serif;
+    border:none;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: bold;
+    font-size:20px;
+}
+.name #link
+{
+    color:#2184e6;
+    text-decoration: none;
+    font-size:15px;
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+input{
+    width:93%;
+    height:20%;
+    border-radius: 5px 5px 5px 5px;
+    padding:1px;
+    margin-bottom: 15px;
+    border:1px solid#ccc;
+    font-size:20px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+::placeholder
+{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border:none;
+    font-size:15px;
+    color:rgb(149, 148, 148);
+    
+}
+.create
+{
+   
+    background: #37c62f;
+    color:#ffffff;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    width:50%;
+    font-family:sans-serif;
+    border:none;
+    height:25%;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-weight: bold;
+}
+form input:focus
+{
+    outline:none;
+}
